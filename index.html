@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotogram</title>
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body onload="renderImages()">
+    
+    <header>
+      <div>
+        <img class="logo" src="./img/Fotogram_Logo.svg" alt="Fotogram Logo" />
+      </div>
+    </header>
+
+<div id="main_container">
+    <h1>Dein <br>persönliches Fotoalbum</h1>
+    <div id="content"></div>
+</div>
+
+    <footer>
+      <img src="./img/favicon.png" alt="">
+      <p>©️ MP Studios</p>
+      <i>Bilder von <a href="http://pixabay.com">Pixabay</a></i>
+    </footer>
+
+    <div onclick="closeDialog()" id="body_overlay" class="d_none"></div>
+    <div id="img_dialog" class="dialog d_none"></div>
+
+    <script src="script.js"></script>
+    
+  </body>
+</html>
