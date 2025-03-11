@@ -9,30 +9,27 @@
 
     <script src="script.js"></script>
     <script src="./template.js"></script>
-
   </head>
 
   <body onload="renderImages()">
-    
-    <header>
-      <div>
-        <img class="logo" src="./img/Fotogram_Logo.svg" alt="Fotogram Logo" />
-      </div>
-    </header>
+    <div id="main_container">
+      <header>
+        <div>
+          <img class="logo" src="./img/Fotogram_Logo.svg" alt="Fotogram Logo" />
+        </div>
+      </header>
 
-<div id="main_container">
-    <h1>Dein <br>persönliches Fotoalbum</h1>
-    <div id="content"></div>
-</div>
+      <h1>Dein <br />persönliches Fotoalbum</h1>
+      <div id="content"></div>
 
-    <footer>
-      <img src="./img/favicon.png" alt="">
-      <p>©️ MP Studios</p>
-      <i>Bilder von <a href="http://pixabay.com">Pixabay</a></i>
-    </footer>
+      <footer>
+        <img src="./img/favicon.png" alt="" />
+        <p>©️ MP Studios</p>
+        <i>Bilder von <a href="http://pixabay.com">Pixabay</a></i>
+      </footer>
+    </div>
 
     <div onclick="closeDialog()" id="body_overlay" class="d_none"></div>
     <div id="img_dialog" class="dialog d_none"></div>
-
   </body>
 </html>
